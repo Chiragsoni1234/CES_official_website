@@ -1,0 +1,1405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>CES-Computer Engineering Society</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="team.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
+    <!-- css files -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #speakers .speaker
+        {
+            height:40vh;
+            width:40vh;
+            
+        }
+        .speaker img {
+            height:40vh;
+            width:40vh;
+        }
+    /* On screens that are 600px or less, set the background color to olive */
+    @media screen and (max-width: 600px) {
+        #speakers .speaker
+        {
+            height:45vh;
+            width:90%;
+            margin:auto;
+            margin-bottom:30px;
+        }
+        .speaker img {
+            height:50vh;
+            width:50vh;
+        }
+    }   </style>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        .icon{
+            width: 15px;
+            height: 15px;
+        }
+        .card{
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+        }
+        /* h4{
+            border-bottom: 5px solid red;
+            margin:5px 40%;
+        } */
+    
+    button{
+      padding: 10px;
+      border-radius: 10px;
+      margin: 2rem;
+    }
+    .css-button-arrow--red {
+        min-width: 130px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        overflow: hidden;
+        border-radius: 5px;
+        border: none;
+        background-color: #0ca1e7;
+      }
+      .css-button-arrow--red:hover {
+        border-radius: 5px;
+        padding-right: 24px;
+        padding-left:8px;
+      }
+      .css-button-arrow--red:hover:after {
+        opacity: 1;
+        right: 10px;
+      }
+      .css-button-arrow--red:after {
+        content: "\00BB";
+        position: absolute;
+        opacity: 0;
+        font-size: 20px;
+        line-height: 40px;
+        top: 0;
+        right: -20px;
+        transition: 0.4s;
+      }
+      .card-text{
+        position: relative;
+        font-size: 14px;
+    }
+    .card-text:before {
+      content: "";
+      width: 30px;
+      height: 4px;
+      background: #0ca1e7;
+      left: 10px;
+      top: 50%;
+      position: absolute;
+    }
+    
+    .card-text:after {
+      content: "";
+      /* display: block; */
+      width: 30px;
+      height: 4px;
+      background: #0ca1e7;
+      right: 10px;
+      top: 50%;
+      position: absolute;
+    }
+    .card-container > .row >.col{
+      margin: 15px;
+    }
+    .col{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+    }
+    
+    .card-container > .row{
+      margin: 0 5em 0 5em;
+    }
+
+    .card-body a{
+      display: none;
+    }
+    </style>
+    </head>
+</head>
+
+<body onload="after_load_display()" style="background-image: url('https://img.freepik.com/free-vector/blue-polygonal-shapes-background_1053-434.jpg?size=626&ext=jpg&uid=R106424704&ga=GA1.1.1211355087.1692687613&semt=ais')" >
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center ">
+        <div class="container-fluid container-xxl d-flex align-items-center">
+
+            <div id="logo" class="me-auto">
+                <!-- Uncomment below if you prefer to use a text logo -->
+                <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
+                <a href="#intro" class="scrollto"><img src="assets/img/ces2.png" alt="" title=""></a>
+                <a href="http://www.mmmut.ac.in/" target="_blank" class="scrollto"><img src="assets/img/logo3.png"
+                        alt="" title=""></a>
+            </div>
+            <nav id="navbar" class="navbar order-last order-lg-0 home-team">
+                <ul>
+                    <li><a class="nav-link scrollto " href="index.html"><i class="fa fa-home" style="font-size:30px;color:white"></i></a></li>
+                    <!-- <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto active" href="teams.html">Team Members</a></li>
+                    <li><a class="nav-link scrollto" href="#schedule">Event Schedule</a></li>
+                    <li><a class="nav-link scrollto" href="#venue">Location</a></li> -->
+                    <!-- <li><a class="nav-link scrollto" href="#hotels">Winners</a></li>
+                    <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li> -->
+                </ul>
+                <!-- <i class="bi bi-list mobile-nav-toggle"></i> -->
+            </nav><!-- .navbar -->`
+        </div>
+    </header><!-- End Header -->
+
+    <!-- ======= Hero Section(Background for team page) ======= -->
+    <section id="hero" style="background-color: #fff;">
+        <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+            <!-- <h1 class="mb-4 pb-0">The Annual<br><span>Marketing</span> Conference</h1> -->
+
+            <h1 class="mb-4 pb-0"><span>T</span>EAM <span>C</span>ES</h1>
+            <h1 class="mb-4 pb-0"> <span>C</span>OMPUTER  <span>E</span>NGINEERING  <span>S</span>OCIETY</h1>
+            <p class="mb-4 pb-0"> Madan Mohan Malaviya University Of Technology, <span>Gorakhpur</span></p>
+
+            <!-- <a href="#" class="glightbox play-btn mb-4"></a> -->
+            <a href="#speakers" class="about-btn scrollto" style="margin-top: 8rem;">Team Members</a>
+        </div>
+    </section><!-- End Hero Section --> 
+
+    <div class="background" >
+    <section id="speakers" >
+        <div class="container" >
+            <div class="section-header" style="margin-bottom: 0;">
+                <h2 class="word_render" >Final Year Members</h2>
+                <p></p>
+            </div>
+             <!-- members of final year -->
+             
+        </div>`
+    </section>
+        
+
+     <!-- cards and button -->
+     <div class="container-fluid card-container">
+        <!-- <h2 class="text-center" style="margin-top:0;" data-aos="fade-up">Team Members</h2>
+        <h4></h4> -->
+        <div class="container text-center">
+            <button data-bs-target="#final" aria-selected="true" aria-controls="final" onclick="final()" class="css-button-arrow--red">Final Year</button>
+        <button data-bs-target="#third" aria-selected="false" aria-controls="third" onclick="third()" class="css-button-arrow--red">Third Year</button>
+        <button data-bs-target="#second" aria-selected="false" aria-controls="second" onclick="second()" class="css-button-arrow--red">Second Year</button>
+        </div>
+        
+    </div>
+        <!-- final year -->
+        <!-- <div class="container-fluid"></div> -->
+          <div class="container-fluid card-container" id="final" aria-labelledby="final_year">
+          <div class="row" >
+            <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;" >
+                <img class="card-img-top" src="Members\Final Year\Yash Tiwari.jpeg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                  <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Yash Tiwari</h5>
+                  <p class="card-text" style="margin-top: 0;"><span>Development</span> Head</p>
+                </div>
+                <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                  <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                </div>
+              </div></div>
+           
+    
+        <!-- 2 -->
+      
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Final Year\Sai Arya.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Sai Arya</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Treasurer</span></p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+    
+      <!-- 3 -->
+      
+        <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+            <img class="card-img-top" src="Members\Final Year\Adarsh Kumar Srivastava.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+            <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+              <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Adarsh Kumar Srivastava</h5>
+              <p class="card-text" style="margin-top: 0;"><span>CP</span> Head</p>
+            </div>
+            <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+              <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+            </div>
+          </div></div>
+       
+    
+    <!-- 4-->
+      <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+          <img class="card-img-top" src="Members\Final Year\Vaishnavi Porwal.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+          <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+            <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Vaisnavi Porwal</h5>
+            <p class="card-text" style="margin-top: 0;"><span>Vice-President</span></p>
+          </div>
+          <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+            <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+          </div>
+        </div></div>
+     
+  
+  <!-- 5 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Final Year\Kushagra Shukla.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Kushagra Shukla</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Publicity</span> Head</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+
+<!-- 6 -->
+
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Final Year\Naveen Kushwaha.jpeg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Naveen Kushwaha</h5>
+        <p class="card-text" style="margin-top: 0;"><span>President</span></p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+ 
+
+<!-- 7 -->
+
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Final Year\Ayushi Mishra.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Ayushi Mishra</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Editorial</span> Head</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+ 
+<!-- 8 -->
+
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Final Year\Akriti Srivastava.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Akriti Srivastava</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Treasurer</span></p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+ 
+      <!-- 9 -->
+
+        <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+            <img class="card-img-top" src="Members\Final Year\Sejal Gangwar.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+            <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+              <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Sejal Gangwar</h5>
+              <p class="card-text" style="margin-top: 0;"><span>Publicity</span> Head</p>
+            </div>
+            <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+              <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+            </div>
+          </div></div>
+       
+    <!-- 10 -->
+  
+      <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+          <img class="card-img-top" src="Members\Final Year\Kumari Aastha Rani.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+          <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+            <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Kumari Aastha Rani</h5>
+            <p class="card-text" style="margin-top: 0;"><span>Development</span> Head</p>
+          </div>
+          <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+            <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+          </div>
+        </div></div>
+     
+  
+  <!-- 11 -->
+
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Final Year\Sophiya Singh.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Sophiya Singh</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+
+   <!-- 12 -->
+   
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Final Year\Sanskriti Singh.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Sanskriti Singh</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+
+<!-- 13 -->
+
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Final Year\Harsh Mishra.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Harsh Mishra</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+ 
+<!-- 14 -->
+
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Final Year\Abhijeet Srivastava.jpeg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Abhijeet Srivastava</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+ 
+<!-- 15 -->
+
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Final Year\Shivendra Tripathi.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Shivendra Tripathi</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+ 
+<!-- 16 -->
+
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Final Year\Shailesh Maddheshiya.jpeg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Shailesh Maddheshiya</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+ 
+<!-- 17 -->
+
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Final Year\Shivansh Jaiswal.jpeg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Shivansh Jaiswal</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+ 
+
+<!-- 18 -->
+
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Final Year\Aryan Mangla.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Aryan Mangla</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+ 
+<!-- 19 -->
+
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Final Year\Abhiyodaya Pandey.jpeg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Abhiyodaya Pandey</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+ 
+
+<!-- 20 -->
+<!-- 
+  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+      <img class="card-img-top" src="Members\Third Year\Raghvendra Tiwari.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Raghvendra Tiwari</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div>
+  -->
+
+<!-- 21 -->
+
+  <!-- <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;margin: 0 20% 0 20%;">
+      <img class="card-img-top" src="Members\Third Year\Raghvendra Tiwari.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Raghvendra Tiwari</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div> -->
+ 
+
+<!-- 22 -->
+
+  <!-- <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;margin: 0 20% 0 20%;">
+      <img class="card-img-top" src="Members\Third Year\Raghvendra Tiwari.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Raghvendra Tiwari</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div> -->
+ 
+
+<!-- 23 -->
+
+  <!-- <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;margin: 0 20% 0 20%;">
+      <img class="card-img-top" src="Members\Third Year\Raghvendra Tiwari.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Raghvendra Tiwari</h5>
+        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+      </div>
+      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+      </div>
+    </div></div> -->
+ 
+</div>
+          </div>
+</div>
+
+          <!--third year  -->
+          
+            <!-- 1 -->
+           <!-- this is commented -->
+           <div class="container-fluid card-container" id="third" aria-labelledby="third" >
+            <div class="row" >
+              <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                  <img class="card-img-top" src="Members\Third Year\Raghvendra Tiwari.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                  <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                    <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Raghvendra Tiwari</h5>
+                    <p class="card-text" style="margin-top: 0;"><span>Development</span> Assistant</p>
+                  </div>
+                  <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                    <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                    <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                    <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                    <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                  </div>
+                </div></div>
+             
+      
+          <!-- 2 -->
+        
+            <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                <img class="card-img-top" src="Members\Third Year\Anant Sharan Pandey.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                  <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Anant Sharan Pandey</h5>
+                  <p class="card-text" style="margin-top: 0;"><span>CP</span> Assistant</p>
+                </div>
+                <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                  <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                </div>
+              </div></div>
+           
+      
+        <!-- 3 -->
+        
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Third Year\Gautam Kumar Shah.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Gautam Kumar Shah</h5>
+                <p class="card-text" style="margin-top: 0;"><span>CP</span> Assistant</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+      
+      <!-- 4-->
+        <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+            <img class="card-img-top" src="Members\Third Year\Manvendra Sharma.jpeg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+            <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+              <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Manvendra Sharma</h5>
+              <p class="card-text" style="margin-top: 0;"><span>Session</span> Coordinator</p>
+            </div>
+            <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+              <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+            </div>
+          </div></div>
+       
+    
+    <!-- 5 -->
+    
+      <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+          <img class="card-img-top" src="Members\Third Year\Anjali Mishra.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+          <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+            <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Anjali Mishra</h5>
+            <p class="card-text" style="margin-top: 0;"><span>Design</span> Assistant</p>
+          </div>
+          <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+            <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+          </div>
+        </div></div>
+     
+  
+  <!-- 6 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Aastha Singh.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Aastha Singh</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Editorial</span> Assistant</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+  
+  <!-- 7 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Pragyanand Singh.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Pragyanand Singh</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Planning</span> Assistant</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+  <!-- 8 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Prashu Verma.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Prashu Verma</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Development</span> Assistant</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+        <!-- 9 -->
+  
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Third Year\Yashi Agrawal.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Yashi Agrawal</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Session</span> Coordinator</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+      <!-- 10 -->
+    
+        <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+            <img class="card-img-top" src="Members\Third Year\Kartikey Singh.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+            <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+              <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Kartikey Singh</h5>
+              <p class="card-text" style="margin-top: 0;"><span>Session</span> Coordinator</p>
+            </div>
+            <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+              <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+              <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+            </div>
+          </div></div>
+       
+    
+    <!-- 11 -->
+  
+      <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+          <img class="card-img-top" src="Members\Third Year\Ayushi Singh.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+          <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+            <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Ayushi Singh</h5>
+            <p class="card-text" style="margin-top: 0;"><span>Editorial</span> Assistant</p>
+          </div>
+          <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+            <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+          </div>
+        </div></div>
+     
+  
+     <!-- 12 -->
+     
+      <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+          <img class="card-img-top" src="Members\Third Year\Yashaswi Shah.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+          <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+            <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Yashaswi Shahi</h5>
+            <p class="card-text" style="margin-top: 0;"><span>Development</span> Assistant</p>
+          </div>
+          <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+            <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+            <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+          </div>
+        </div></div>
+     
+  
+  <!-- 13 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Sonali Rao.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Sonali Rao</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Editorial</span> Assistant</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+  <!-- 14 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Somiya Kumari.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Soumiya Kumari</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Publicity</span> Assistant</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+  <!-- 15 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Niraj Kumar.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Niraj Kumar</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Design</span> Assistant</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+  <!-- 16 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Ankush Gupta.png" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Ankush Gupta</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Publicity</span> Assistant</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+  <!-- 17 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Deepak Kumar.jpeg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Deepak Kumar</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Cryptography</span> Head</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+  
+  <!-- 18 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Pankaj Rana.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Pankaj Rana</h5>
+          <p class="card-text" style="margin-top: 0;"><span>CP</span> Assistant</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+  <!-- 19 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Devansh Tripathi.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Devansh Tripathi</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Publicity</span> Assistant</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+  
+  <!-- 20 -->
+  
+    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+        <img class="card-img-top" src="Members\Third Year\Sheetal Singh.jpeg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Sheetal Singh</h5>
+          <p class="card-text" style="margin-top: 0;"><span>Planning </span> Assistant</p>
+        </div>
+        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+        </div>
+      </div></div>
+   
+  </div>
+            </div>
+  </div>
+          
+          
+
+
+            <!-- second year -->
+           <!-- 1 -->
+                <div class="container-fluid card-container" id="second" aria-labelledby="second" >
+                  <div class="row" >
+                    <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                        <img class="card-img-top" src="Members\Sophomoreyr\Aaraydhya Singh.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                        <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                          <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Aaraydhya Singh</h5>
+                          <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+                        </div>
+                        <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                          <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                          <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                          <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                          <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                        </div>
+                      </div></div>
+                   
+            
+                <!-- 2 -->
+              
+                  <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                      <img class="card-img-top" src="Members\Sophomoreyr\Abhijeet Kumar Gupta.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                      <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                        <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Abhijeet Kumar Gupta</h5>
+                        <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+                      </div>
+                      <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                        <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                        <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                        <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                        <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                      </div>
+                    </div></div>
+                 
+            
+              <!-- 3 -->
+              
+                <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                    <img class="card-img-top" src="Members\Sophomoreyr\Anish Tiwari.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                    <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                      <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Anish Tiwari</h5>
+                      <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+                    </div>
+                    <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                      <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                      <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                      <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                      <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                    </div>
+                  </div></div>
+               
+            
+            <!-- 4-->
+              <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                  <img class="card-img-top" src="Members\Sophomoreyr\Anjali Shekhar.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                  <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                    <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Anjali Shekhar</h5>
+                    <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+                  </div>
+                  <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                    <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                    <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                    <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                    <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                  </div>
+                </div></div>
+             
+          
+          <!-- 5 -->
+          
+            <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                <img class="card-img-top" src="Members\Sophomoreyr\Ankush Yadav.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                  <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Ankush Yadav</h5>
+                  <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+                </div>
+                <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                  <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                </div>
+              </div></div>
+           
+        
+        <!-- 6 -->
+        
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Ashish Ranjan.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Ashish Ranjan</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+        
+        <!-- 7 -->
+        
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Ayush Sharma.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Ayush Sharma</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+        <!-- 8 -->
+        
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Chandrabushan Gudheniya.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Chandrabushan Gudheniya</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+              <!-- 9 -->
+        
+                <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                    <img class="card-img-top" src="Members\Sophomoreyr\Dinkar Gupta.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                    <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                      <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Dinkar Gupta</h5>
+                      <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+                    </div>
+                    <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                      <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                      <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                      <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                      <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                    </div>
+                  </div></div>
+               
+            <!-- 10 -->
+          
+              <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                  <img class="card-img-top" src="Members\Sophomoreyr\Divyansh Vishwakarma.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                  <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                    <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Divyansh Vishwakarma</h5>
+                    <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+                  </div>
+                  <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                    <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                    <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                    <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                    <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                  </div>
+                </div></div>
+             
+          
+          <!-- 11 -->
+        
+            <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                <img class="card-img-top" src="Members\Sophomoreyr\Ipshita Gupta.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                  <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Ipshita Gupta</h5>
+                  <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+                </div>
+                <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                  <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                </div>
+              </div></div>
+           
+        
+           <!-- 12 -->
+           
+            <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+                <img class="card-img-top" src="Members\Sophomoreyr\Ishita Srivastava.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+                <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                  <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Ishita Srivastava</h5>
+                  <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+                </div>
+                <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                  <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                  <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+                </div>
+              </div></div>
+           
+        
+        <!-- 13 -->
+        
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Manmeet Kishore Maurya.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Manmeet Kishore Maurya</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+        <!-- 14 -->
+        
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Pranvi Jaiswal.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Pranvi Jaiswal</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+        <!-- 15 -->
+        
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Pratham Khanna.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Pratham Khanna</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive Member</s/p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+        <!-- 16 -->
+
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Samriddhi Srivastava.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Samriddhi Srivasatava</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+        <!-- 17 -->
+        
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Shivam Rai.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Shivam Rai</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+        
+        <!-- 18 -->
+
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Sidra Ahsan.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Sidra Ahsan</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+        <!-- 19 -->
+        
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Sparsh Gupta.jpg" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Sparsh Gupta</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+        
+        <!-- 20 -->
+        
+          <div class="col"><div class="card" style="width: 18rem;border-radius: 20px;width: 15rem;">
+              <img class="card-img-top" src="Members\Sophomoreyr\Utkarsh Verma.png" alt="Card image cap" style="padding:10px 5px 0 5px;border-radius: 20px 20px 0 0 ;height:15rem;">
+              <div class="card-body text-center" style="padding: 0;background-color: #F1F6F9;">
+                <h5 class="card-title" style="margin-top: 5px;margin-bottom: 2px;">Utkarsh Verma</h5>
+                <p class="card-text" style="margin-top: 0;"><span>Executive</span> Member</p>
+              </div>
+              <div class="card-body text-center" style="margin-top: 0;background-color: #F1F6F9;height: 3 rem; padding:5px">
+                <a href="#" class="card-link"><img src="img_icon/facebook.png" alt="facebook" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/git.png" alt="Github" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/instagram (1).png" alt="Instagram" class="icon"></a>
+                <a href="#" class="card-link"><img src="img_icon/link.png" alt="Linkedin" class="icon"></a>
+              </div>
+            </div></div>
+         
+        </div>
+                  </div>
+        </div>
+
+
+<!-- extra -->
+      </div>
+      
+
+ <!-- ======= Footer ======= -->
+ <footer id="footer">
+  <div class="footer-top">
+      <div class="container">
+          <div class="row">
+
+              <div class="col-lg-3 col-md-6 footer-info">
+                  <a href="index.html"><img src="assets/img/ces2.png" alt="CES-logo" title=""></a>
+                  <a href="http://www.mmmut.ac.in/" target="_blank"><img src="assets/img/logo3.png"
+                          alt="mmmut-logo" title=""></a>
+
+                  <p>The Computer Engineering Society has been functioning since 1993 with the collective efforts of a group of B. Tech. Students who had a strong urge to complement the theoretical and practical knowledge imparted in the classroom and laboratory, with emphasis on development of overall personality of budding engineering graduates.</p>
+              </div>
+
+              <div class="col-lg-3 col-md-6 footer-links">
+                  <h4>Our Other Events</h4>
+                  <ul>
+                    <li><i class="fa fa-angle-right"></i> <a href="events.html#ctf">CTF</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="events.html#wield">Wield The Web</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="events.html#goc">Game of Codes</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="events.html#carpedium">Carpe diem</a>
+                    </li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Annual Event and Magazine</h4>
+                <ul>
+                    <li><i class="fa fa-angle-right"></i> <a href="https://cesennexus2k23.netlify.app/">Ennexus</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="https://online.fliphtml5.com/ckxdu/qogo/#p=1">Algorica (I Edition)</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="https://issuu.com/ces_mmmut/docs/algorica_2023">Algorica (II Edition)</a></li>
+                </ul>
+              </div>
+
+
+
+              <div class="col-lg-3 col-md-6 footer-contact">
+                  <h4>Contact Us</h4>
+                  <p>
+                      MMMUT <br>
+                      Gorakhpur<br>
+                      U.P India <br>
+                      <!-- <strong>Phone:9876543210 </strong> <br>
+                      <strong>Email: </strong><br> -->
+                  </p>
+
+
+                  <div class="social-links">
+                      <a href="https://www.facebook.com/ces.mmmut/" target="_blank" class="facebook"><i
+                              class="bi bi-facebook"></i></a>
+                      <a href="https://www.instagram.com/cesmmmut/?hl=en" target="_blank" class="instagram"><i
+                              class="bi bi-instagram"></i></a>
+                      <a href="https://www.linkedin.com/company/cesmmmut/mycompany/" target="_blank"
+                          class="linkedin"><i class="bi bi-linkedin"></i></a>
+                      <!-- <a href="https://discord.gg/rJ8qenRuNT" target="_blank" class="discord"><i
+                              class="bi bi-discord"></i></a> -->
+                  </div>
+
+              </div>
+
+          </div>
+      </div>
+  </div>
+
+  <div class="container">
+      <div class="copyright">
+          &copy; Copyright <strong>CES</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+          Designed by <a href="https://bootstrapmade.com/">CES</a>
+      </div>
+  </div>
+</footer><!-- End  Footer -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script>
+        var form = document.getElementById('sheetdb-form');
+        form.addEventListener("submit", e => {
+            e.preventDefault();
+            fetch(form.action, {
+                method: "POST",
+                body: new FormData(document.getElementById("sheetdb-form")),
+            }).then(
+                response => response.json()
+            ).then((html) => {
+                // you can put any JS code here
+                alert("Thank You for Contacting Us!!");
+                window.location = "https://ces-official.netlify.app/";
+                // window.location = "http://127.0.0.1:5500/index.html"; // for localhost
+
+            });
+        });
+    </script>
+<!-- self made js for team -->
+<script src="team.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
+</body>
+
+</html>

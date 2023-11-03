@@ -1,2 +1,2 @@
-# CES_official_website
-This is official website of Computer engineering society
+#CES OFFICIAL WEBSITE
+https://aaradhayasingh811.github.io/ces-official-draft/
